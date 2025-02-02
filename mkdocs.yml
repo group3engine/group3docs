@@ -8,14 +8,14 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: green
-      accent: deep purple
+      accent: deep orange
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
+      primary: green
       accent: deep orange
   features:
     - content.code.copy
@@ -39,3 +39,4 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
