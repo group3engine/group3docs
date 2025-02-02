@@ -220,7 +220,7 @@ Also, I don't think we should worry about performance much (comparison below). Y
 
 ## More motivation
 
-Take it from [Sacha Willems](https://www.saschawillems.de/blog/2020/06/06/new-vulkan-gltf-examples/):
+Take it from [Sascha Willems](https://www.saschawillems.de/blog/2020/06/06/new-vulkan-gltf-examples/):
 > **Moving to glTF**
 >
 > When I started writing my first Vulkan samples glTF was still in it’s infancy, esp. in terms of tooling. So I went with more common formats and went with the Open Asset importer library (Assimp) for loading these.
