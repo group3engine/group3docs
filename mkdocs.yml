@@ -1,5 +1,4 @@
-site_name: My MkDocs Material Documentation
-site_url: https://sitename.example
+site_name: group3docs
 theme:
   name: material
   palette:
@@ -25,7 +24,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
