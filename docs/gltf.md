@@ -218,6 +218,27 @@ Also, I don't think we should worry about performance much (comparison below). Y
 ![Bistro load from memory (without images and buffer load)](images/gltf-loader-performance.png)
 <https://fastgltf.readthedocs.io/latest/overview.html>
 
+## More on assimp
+
+- Fear of the animation API being a bit far away from the glTF animation API
+- There are lots of tutorials and guides on how to use glTF animations
+- <https://github.com/SaschaWillems/Vulkan/blob/master/examples/gltfskinning/README.md>
+- Would just be easier to follow that than interfacing with assimp's animations?
+- assimp pbr materials are probably decently different from glTF materials
+- Again there are tutorials on how to get pbr renderers with glTF materials working
+- Filament by Google is a good example of a pbr renderer using cgltf
+- cgltf is one simple file
+- Don't have to have the entire assimp library
+- 119 GitHub gltf issues for assimp
+- Including: "(partial)" support for exporting glTF 2.0 files
+- Forward axis not respected? <https://github.com/assimp/assimp/issues/5330>
+- Can't export lights with glTF from assimp? <https://github.com/assimp/assimp/issues/4155>
+- Can't export cameras with glTF from assimp? <https://github.com/assimp/assimp/issues/3380>
+- <https://github.com/assimp/assimp/issues/3376>? Crash on Linux?
+- Export to glTF 2.0 Skinning Animation model is not done correctly #2203 <https://github.com/assimp/assimp/issues/2203>
+- assimp does not use mikktspace tangent generation which glTF recommends <https://github.com/assimp/assimp/issues/2363>
+- Possibly broken glTF files
+
 ## More motivation
 
 Take it from [Sascha Willems](https://www.saschawillems.de/blog/2020/06/06/new-vulkan-gltf-examples/):
