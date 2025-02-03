@@ -237,7 +237,7 @@ Also, I don't think we should worry about performance much (comparison below). Y
 - <https://github.com/assimp/assimp/issues/3376>? Crash on Linux?
 - Export to glTF 2.0 Skinning Animation model is not done correctly #2203 <https://github.com/assimp/assimp/issues/2203>
 - assimp does not use mikktspace tangent generation which glTF recommends <https://github.com/assimp/assimp/issues/2363>
-- Possibly broken glTF files
+- Possibly broken exported glTF files
 
 ## More motivation
 
