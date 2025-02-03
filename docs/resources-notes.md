@@ -24,6 +24,15 @@ We don't have to have a fully fledged toolchain that allows for any asset create
 
 One question to think about, maybe decently early, is the limitations of glTFs and what info they can store. They are quite comprehensive, but if we have a scene editor and want to create an obby with moving platforms, say the platform moves from point A to point B, how do we save out a scene representation and info about this moving platform?
 
+- Update: for the moving platform we might be able to just store simple animations in glTF files. See <https://www.khronos.org/files/gltf20-reference-guide.pdf>:
+
+> The translation, rotation and scale properties of a
+node may also be the target of an animation: The
+animation then describes how one property
+changes over time. The attached objects will move
+accordingly, allowing to model moving objects or
+camera flights.
+
 ## Packing the TBN frame
 
 One obvious case for where we are going to have to have some sort of asset conditioning pipeline is for packing the TBN frame.
